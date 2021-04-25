@@ -26,9 +26,9 @@ class HeroFactory:
 if __name__== "__main__" :
     hero=HeroFactory()
     timo=hero.create_hero("timo")
-    timo.speal_lines()
+    timo.speak_lines()
     police=hero.create_hero("police")
-    police.speal_lines()
+    police.speak_lines()
     timo.fight(police)
     timo.fight(police)
     timo.fight(police)

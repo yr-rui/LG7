@@ -15,9 +15,12 @@ class Hero:
     hp=0
     power=0
     name=""
+    slogan=""
     def __init__(self,hp,power):
         self.hp=hp    #血量
         self.power=power   #攻击力
+    def speak_lines(self):
+        print(self.slogan)
     def fight(self,enemy):
         self.hp = self.hp - enemy.power
         enemy.hp = enemy.hp - self.power
@@ -27,14 +30,10 @@ class Hero:
             print(f"{enemy.name}打赢了,{self.name}的血量只有{self.hp},敌人{enemy.name}的血量还有{enemy.hp}")
         else:
             print("打成了平局")
-    def speal_lines(self):
-        pass
 
 class Timo(Hero):
     name = "Timo"
-    def speal_lines(self):
-        print("提莫队长正在待命")
+    slogan = "提莫队长正在待命"
 class Police(Hero):
     name = "Police"
-    def speal_lines(self):
-        print("见识一下法律的子弹")
+    slogan = "见识一下法律的子弹"
