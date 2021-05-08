@@ -1,0 +1,129 @@
+{
+  "uid" : "57a3dbb839d2e642",
+  "name" : "test_div_error[3-测试-除数或被除数为汉字]",
+  "fullName" : "test_demo.TestCalDiv#test_div_error",
+  "historyId" : "38a9e1ccc1f6210a0cb275fc07e734f4",
+  "time" : {
+    "start" : 1620452478707,
+    "stop" : 1620452478707,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "calcu",
+    "time" : {
+      "start" : 1620452478551,
+      "stop" : 1620452478551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "除数或被除数为汉字",
+      "time" : {
+        "start" : 1620452478707,
+        "stop" : 1620452478707,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "288b0305f18e4506",
+      "name" : "stdout",
+      "source" : "288b0305f18e4506.txt",
+      "type" : "text/plain",
+      "size" : 13
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "calcu::0",
+    "time" : {
+      "start" : 1620452478709,
+      "stop" : 1620452478709,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器中的除法"
+  }, {
+    "name" : "story",
+    "value" : "异常场景"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalDiv"
+  }, {
+    "name" : "host",
+    "value" : "JondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "81125-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "'测试'"
+  }, {
+    "name" : "step",
+    "value" : "'除数或被除数为汉字'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "57a3dbb839d2e642.json",
+  "parameterValues" : [ "3", "'测试'", "'除数或被除数为汉字'" ]
+}

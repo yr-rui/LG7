@@ -1,0 +1,138 @@
+{
+  "uid" : "a23c10cbf3d1aedb",
+  "name" : "test_add_fraction[fraction1]",
+  "fullName" : "test_demo.TestCalAdd#test_add_fraction",
+  "historyId" : "9e1cc543ec6a0702b7a2b17bcaf5d48d",
+  "time" : {
+    "start" : 1620452478500,
+    "stop" : 1620452478501,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "calcu",
+    "time" : {
+      "start" : 1620452478411,
+      "stop" : 1620452478411,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "计算和",
+      "time" : {
+        "start" : 1620452478501,
+        "stop" : 1620452478501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "与期望值进行对比验证",
+      "time" : {
+        "start" : 1620452478501,
+        "stop" : 1620452478501,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "calcu::0",
+    "time" : {
+      "start" : 1620452478537,
+      "stop" : 1620452478543,
+      "duration" : 6
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试分数相加"
+  }, {
+    "name" : "feature",
+    "value" : "测试计算器中的加法"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalAdd"
+  }, {
+    "name" : "host",
+    "value" : "JondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "81125-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "0.3333333333333333"
+  }, {
+    "name" : "b",
+    "value" : "0.3333333333333333"
+  }, {
+    "name" : "expect",
+    "value" : "0.6666666666666666"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a23c10cbf3d1aedb.json",
+  "parameterValues" : [ "0.3333333333333333", "0.3333333333333333", "0.6666666666666666" ]
+}

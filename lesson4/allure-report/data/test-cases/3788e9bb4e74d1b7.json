@@ -1,0 +1,123 @@
+{
+  "uid" : "3788e9bb4e74d1b7",
+  "name" : "test_div_error[1-0-除数为0]",
+  "fullName" : "test_demo.TestCalDiv#test_div_error",
+  "historyId" : "99a5c975188dc4bd05152078b0b27748",
+  "time" : {
+    "start" : 1620452478678,
+    "stop" : 1620452478678,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "calcu",
+    "time" : {
+      "start" : 1620452478551,
+      "stop" : 1620452478551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "除数为0",
+      "time" : {
+        "start" : 1620452478678,
+        "stop" : 1620452478678,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "calcu::0",
+    "time" : {
+      "start" : 1620452478709,
+      "stop" : 1620452478709,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算器中的除法"
+  }, {
+    "name" : "story",
+    "value" : "异常场景"
+  }, {
+    "name" : "suite",
+    "value" : "test_demo"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCalDiv"
+  }, {
+    "name" : "host",
+    "value" : "JondeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "81125-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_demo"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "1"
+  }, {
+    "name" : "b",
+    "value" : "0"
+  }, {
+    "name" : "step",
+    "value" : "'除数为0'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3788e9bb4e74d1b7.json",
+  "parameterValues" : [ "1", "0", "'除数为0'" ]
+}
